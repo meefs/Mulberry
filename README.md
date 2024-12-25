@@ -21,7 +21,7 @@
 [Yuxin Song]()<sup>3</sup>,
 [Haocheng Feng]()<sup>3</sup>,
 [Li Shen]()<sup>4</sup>,
-[Dacheng Tao]()<sup>1</sup>,
+[Dacheng Tao]()<sup>1</sup>
 
 
 <sup>1</sup>[Nanyang Technological University](https://www.ntu.edu.sg/), <sup>2</sup>[Tsinghua University](https://www.tsinghua.edu.cn/en/), <sup>3</sup>[Baidu](https://vis.baidu.com/#/), <sup>4</sup>[SYSU](https://www.sysu.edu.cn/sysuen/)
