@@ -36,7 +36,7 @@
 - [x] **`Dec 24, 2024.`** We release our paper in [arxiv](https://arxiv.org/abs/2412.18319).
 
 
-<!--## 🖇️ Citation
+## 🖇️ Citation
 If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
 ```bibtex
 @article{yao2024mulberry,
@@ -45,4 +45,4 @@ If you find this repository is useful, please star🌟 this repo and cite🖇️
   journal={arXiv preprint arXiv:2412.18319},
   year={2024}
 }
-```-->
+```
