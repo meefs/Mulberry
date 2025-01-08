@@ -36,6 +36,20 @@
 - [x] **`Dec 24, 2024.`** We release our paper in [arxiv](https://arxiv.org/abs/2412.18319).
 
 
+## 📊 Results
+
+We conduct extensive experiments with four powerful baseline models, including [LLaVA-Next-8b](https://huggingface.co/llava-hf/llama3-llava-next-8b-hf), [LLaMA-3.2-Vision-11B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct), [Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct). The **Main Results** comparing the Mulberry models with other state-of-the-art models across several popular benchmarks are shown in the figure below.
+
+<div align=center>
+<img width="650" alt="image" src="figure/main_results.png">
+</div>
+
+## 👀 Quantitative Results
+Mulberry creates rich, explicit and well-defined reasoning steps with comprehensive understanding, ultimately arriving at the correct answer.
+<div align=center>
+<img width="700" alt="image" src="figure/qualitative_results_reasoning.png">
+</div>
+
 ## 🖇️ Citation
 If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
 ```bibtex
@@ -46,3 +60,9 @@ If you find this repository is useful, please star🌟 this repo and cite🖇️
   year={2024}
 }
 ```
+
+## 👍 Acknowledgment
+Our work is primarily based on the following codebases. We are sincerely grateful for their work.
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): We use llama-factory to fine-tune Mulberry Models.
+- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): We use VLMEvalKit for evaluation.
+
