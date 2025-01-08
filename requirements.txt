@@ -1,0 +1,10 @@
+torch==2.1.2
+torchvision==0.16.2
+torchnet==0.0.4
+transformers==4.45.2
+triton==2.1.0
+trl==0.9.6
+tqdm==4.67.1
+openai==1.55.3
+Pillow==9.5.0
+numpy==1.22.4
