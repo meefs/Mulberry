@@ -1,0 +1,422 @@
+[
+    {
+        "image": "geo3k_train_811_img_diagram.png",
+        "question": "Question: If W X Y Z is a kite, find Z Y.\nChoices:\nA: \\sqrt{10}\nB: 8\nC: 16\nD: 8\\sqrt{10}",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: If W X Y Z is a kite, find Z Y.\nChoices:\nA: \\sqrt{10}\nB: 8\nC: 16\nD: 8\\sqrt{10}"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_2071_img_diagram.png",
+        "question": "Question: Find m \\angle Q.\nChoices:\nA: 70\nB: 90\nC: 110\nD: 180",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find m \\angle Q.\nChoices:\nA: 70\nB: 90\nC: 110\nD: 180"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_661_img_diagram.png",
+        "question": "Question: Find x. Assume that segments that appear to be tangent are tangent.\nChoices:\nA: 4\nB: 6\nC: 8\nD: 19",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x. Assume that segments that appear to be tangent are tangent.\nChoices:\nA: 4\nB: 6\nC: 8\nD: 19"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:C"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1576_img_diagram.png",
+        "question": "Question: In the figure, J M \\cong P M and M L \\cong P L. If m \\angle P L J = 58, find m \\angle P J L.\nChoices:\nA: 27.5\nB: 28.5\nC: 29.5\nD: 30.5",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: In the figure, J M \\cong P M and M L \\cong P L. If m \\angle P L J = 58, find m \\angle P J L.\nChoices:\nA: 27.5\nB: 28.5\nC: 29.5\nD: 30.5"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1816_img_diagram.png",
+        "question": "Question: Find the measure of \\angle 6 if l \\parallel m and m \\angle 1 = 105.\nChoices:\nA: 75\nB: 85\nC: 95\nD: 105",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find the measure of \\angle 6 if l \\parallel m and m \\angle 1 = 105.\nChoices:\nA: 75\nB: 85\nC: 95\nD: 105"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_872_img_diagram.png",
+        "question": "Question: A B C D is a trapezoid. If m \\angle A B C = 4 x + 11 and m \\angle D A B = 2 x + 33, find the value of x so that A B C D is isosceles.\nChoices:\nA: 11\nB: 30\nC: 44\nD: 55",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: A B C D is a trapezoid. If m \\angle A B C = 4 x + 11 and m \\angle D A B = 2 x + 33, find the value of x so that A B C D is isosceles.\nChoices:\nA: 11\nB: 30\nC: 44\nD: 55"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1020_img_diagram.png",
+        "question": "Question: Find x. Round to the nearest tenth if necessary. Assume that segments that appear to be tangent are tangent.\nChoices:\nA: 2\nB: 4\nC: 6\nD: 8",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x. Round to the nearest tenth if necessary. Assume that segments that appear to be tangent are tangent.\nChoices:\nA: 2\nB: 4\nC: 6\nD: 8"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:C"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_2012_img_diagram.png",
+        "question": "Question: Find x. Assume that any segment that appears to be tangent is tangent.\nChoices:\nA: 5\nB: 10\nC: 20\nD: 150",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x. Assume that any segment that appears to be tangent is tangent.\nChoices:\nA: 5\nB: 10\nC: 20\nD: 150"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_849_img_diagram.png",
+        "question": "Question: Quadrilateral M N O P is a rhombus. Find m \\angle M R N.\nChoices:\nA: 56\nB: 90\nC: 124\nD: 140",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Quadrilateral M N O P is a rhombus. Find m \\angle M R N.\nChoices:\nA: 56\nB: 90\nC: 124\nD: 140"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:B"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1567_img_diagram.png",
+        "question": "Question: Solve for x in the figure below.\nChoices:\nA: 31\nB: 59\nC: 65\nD: 115",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Solve for x in the figure below.\nChoices:\nA: 31\nB: 59\nC: 65\nD: 115"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_56_img_diagram.png",
+        "question": "Question: P is the incenter of \\triangle A E C. Find m \\angle D A C.\nChoices:\nA: 28.5\nB: 30\nC: 31\nD: 33",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: P is the incenter of \\triangle A E C. Find m \\angle D A C.\nChoices:\nA: 28.5\nB: 30\nC: 31\nD: 33"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1346_img_diagram.png",
+        "question": "Question: Find m \\angle 1.\nChoices:\nA: 31\nB: 42\nC: 59\nD: 63",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find m \\angle 1.\nChoices:\nA: 31\nB: 42\nC: 59\nD: 63"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:C"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_577_img_diagram.png",
+        "question": "Question: G J is a diameter of \\odot K. Find m \\widehat G H.\nChoices:\nA: 58\nB: 61\nC: 116\nD: 122",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: G J is a diameter of \\odot K. Find m \\widehat G H.\nChoices:\nA: 58\nB: 61\nC: 116\nD: 122"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_301_img_diagram.png",
+        "question": "Question: Find x. Round to the nearest tenth.\nChoices:\nA: 2.6\nB: 5.2\nC: 10.4\nD: 27.2",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x. Round to the nearest tenth.\nChoices:\nA: 2.6\nB: 5.2\nC: 10.4\nD: 27.2"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:B"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_143_img_diagram.png",
+        "question": "Question: Find y.\nChoices:\nA: 36\nB: 48\nC: 66\nD: 72",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find y.\nChoices:\nA: 36\nB: 48\nC: 66\nD: 72"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_47_img_diagram.png",
+        "question": "Question: Find the perimeter of trapezoid P Q R S.\nChoices:\nA: 38\nB: 38+6\\sqrt{2}\nC: 38+6\\sqrt{3}\nD: 38+6\\sqrt{2}+6\\sqrt{3}",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find the perimeter of trapezoid P Q R S.\nChoices:\nA: 38\nB: 38+6\\sqrt{2}\nC: 38+6\\sqrt{3}\nD: 38+6\\sqrt{2}+6\\sqrt{3}"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1407_img_diagram.png",
+        "question": "Question: Q is the incenter of \\triangle J K L. Find m \\angle Q J K.\nChoices:\nA: 26\nB: 29\nC: 35\nD: 70",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Q is the incenter of \\triangle J K L. Find m \\angle Q J K.\nChoices:\nA: 26\nB: 29\nC: 35\nD: 70"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:C"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_107_img_diagram.png",
+        "question": "Question: Equilateral pentagon P Q R S T is inscribed in \\odot U. Find m \\angle P T S.\nChoices:\nA: 36\nB: 72\nC: 120\nD: 144",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Equilateral pentagon P Q R S T is inscribed in \\odot U. Find m \\angle P T S.\nChoices:\nA: 36\nB: 72\nC: 120\nD: 144"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_67_img_diagram.png",
+        "question": "Question: Find x.\nChoices:\nA: 2.7\nB: 5.4\nC: 6\nD: 9",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x.\nChoices:\nA: 2.7\nB: 5.4\nC: 6\nD: 9"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:B"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_2081_img_diagram.png",
+        "question": "Question: Find x.\nChoices:\nA: 4\nB: 2\\sqrt{5}\nC: 2\\sqrt{6}\nD: 2\\sqrt{10}",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x.\nChoices:\nA: 4\nB: 2\\sqrt{5}\nC: 2\\sqrt{6}\nD: 2\\sqrt{10}"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_899_img_diagram.png",
+        "question": "Question: Find the measure of \\angle 6.\nChoices:\nA: 130\nB: 140\nC: 142.5\nD: 145",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find the measure of \\angle 6.\nChoices:\nA: 130\nB: 140\nC: 142.5\nD: 145"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:B"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1480_img_diagram.png",
+        "question": "Question: Use parallelogram M N P R to find z.\nChoices:\nA: 6.1\nB: 11.1\nC: 15.3\nD: 18.3",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Use parallelogram M N P R to find z.\nChoices:\nA: 6.1\nB: 11.1\nC: 15.3\nD: 18.3"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_727_img_diagram.png",
+        "question": "Question: In the figure, m \\angle 9 = 75. Find the measure of \\angle 8.\nChoices:\nA: 75\nB: 85\nC: 95\nD: 105",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: In the figure, m \\angle 9 = 75. Find the measure of \\angle 8.\nChoices:\nA: 75\nB: 85\nC: 95\nD: 105"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1752_img_diagram.png",
+        "question": "Question: If P R \\parallel K L, K N = 9, L N = 16, P M = 2 K P, find M R.\nChoices:\nA: 12\nB: 26/2\nC: 40/3\nD: 14",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: If P R \\parallel K L, K N = 9, L N = 16, P M = 2 K P, find M R.\nChoices:\nA: 12\nB: 26/2\nC: 40/3\nD: 14"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:C"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_162_img_diagram.png",
+        "question": "Question: A D and C G are diameters of \\odot B. Find m \\widehat G C F.\nChoices:\nA: 35\nB: 295\nC: 305\nD: 325",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: A D and C G are diameters of \\odot B. Find m \\widehat G C F.\nChoices:\nA: 35\nB: 295\nC: 305\nD: 325"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_63_img_diagram.png",
+        "question": "Question: Find y.\nChoices:\nA: 35\nB: 36\nC: 66\nD: 78",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find y.\nChoices:\nA: 35\nB: 36\nC: 66\nD: 78"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_1230_img_diagram.png",
+        "question": "Question: Find x if A D is an altitude of \\triangle A B C.\nChoices:\nA: 12\nB: 18\nC: 22\nD: 24",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find x if A D is an altitude of \\triangle A B C.\nChoices:\nA: 12\nB: 18\nC: 22\nD: 24"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_783_img_diagram.png",
+        "question": "Question: In \\odot G, m \\angle A G B = 30 and C G \\perp G D. Find m \\widehat B C D.\nChoices:\nA: 30\nB: 45\nC: 120\nD: 150",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: In \\odot G, m \\angle A G B = 30 and C G \\perp G D. Find m \\widehat B C D.\nChoices:\nA: 30\nB: 45\nC: 120\nD: 150"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:D"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_191_img_diagram.png",
+        "question": "Question: J is the incenter of \\angle A B C. Find m \\angle J A C.\nChoices:\nA: 15\nB: 24\nC: 32\nD: 34",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: J is the incenter of \\angle A B C. Find m \\angle J A C.\nChoices:\nA: 15\nB: 24\nC: 32\nD: 34"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:B"
+            }
+        ]
+    },
+    {
+        "image": "geo3k_train_395_img_diagram.png",
+        "question": "Question: Find the area of the triangle.\nChoices:\nA: 167.2\nB: 207.6\nC: 334.4\nD: 415.2",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on the image, directly select the correct answer for the following question:\nQuestion: Find the area of the triangle.\nChoices:\nA: 167.2\nB: 207.6\nC: 334.4\nD: 415.2"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer:A"
+            }
+        ]
+    }
+]
