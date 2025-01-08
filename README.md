@@ -63,7 +63,7 @@ python infer.py \
 
 </details>
 
-## 🌲 Data Constrution with CoMCTS
+## Data Constrution with CoMCTS
 We release **CoMCTS Code** for generating reasoning and reflection data, which leverage collective knowledge from multiple models to collaboratively conjecture, search and identify effective reasoning paths toward correct answers via four iterative operations including Expansion, Simulation and Error Positioning, Backpropagation, and Selection.
 
 Please refer [here](https://github.com/HJYao00/Mulberry/tree/main/comcts) for more details.
