@@ -61,6 +61,22 @@ If you find this repository is useful, please star🌟 this repo and cite🖇️
 }
 ```
 
+
+## Limitations
+Mulberry is a preliminary exploration work in o1-like MLLM, leveraging Collective Monte Carlo Tree Search to enable effective and efficient reasoning-path searching and learning. 
+CoMCTS leverages collective knowledge to significantly improve the search success rate and efficiency of reasoning path searches.
+By training on the reasoning data generated through CoMCTS, Mulberry has gained step-by-step reasoning capabilities, leading to a substantial improvement in overall performance.
+Nevertheless, certain limitations must be acknowledged.
+
+Hallucinations in intermediate steps: Hallucinations are still prevalent in MLLMs, whether in closed or open-source models.
+For instance, the models may generate obvious errors in intermediate reasoning steps yet still arrive at the correct final answer in CoMCTS.
+Therefore, although we incorporated multiple models to better detect errors, some errors still persist in the intermediate steps because ensuring the correctness of all intermediate steps often requires human checks, which is extremely costly and unaffordable for us.
+
+Error localization: 
+During our experiments, we observed that models struggle to detect their own errors. To address this, CoMCTS employs multiple models to cross-check each other's errors.
+However, our findings also revealed that smaller models often fail to generate effective detection responses, while larger models occasionally exhibit inaccurate error localization.
+Thus, inaccurate localization may impact the efficiency of the search and we recommend using larger models for error localization or exploring better prompts to enable smaller models to localize errors more accurately.
+
 <!--
 ## 👍 Acknowledgment
 Our work is primarily based on the following codebases. We are sincerely grateful for their work.
