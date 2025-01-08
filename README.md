@@ -61,8 +61,9 @@ If you find this repository is useful, please star🌟 this repo and cite🖇️
 }
 ```
 
+<!--
 ## 👍 Acknowledgment
 Our work is primarily based on the following codebases. We are sincerely grateful for their work.
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): We use llama-factory to fine-tune Mulberry Models.
-- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): We use VLMEvalKit for evaluation.
+- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): We use VLMEvalKit for evaluation.-->
 
