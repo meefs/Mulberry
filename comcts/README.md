@@ -13,7 +13,8 @@ CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7' python code/run_comcts.py \
     --data_path ./demo_data/comcts_input_data.json \
     --output_path ./output/comcts_data.jsonl \
     --max_iterations 20 \
-    --gpt_version gpt-4o \
+    --exploration_weight 0.5 \
+    --gpt_version 'gpt-4o' \
     --openai_api_key "Your_Open_API_Key" \
     --qwen2_vl_7b_model_path 'Qwen/Qwen2-VL-7B-Instruct' \
     --qwen2_vl_72b_model_path 'Qwen/Qwen2-VL-72B-Instruct' \
