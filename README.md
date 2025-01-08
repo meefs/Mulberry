@@ -5,6 +5,7 @@
 <h5 align="center"> 
 
 <a href='https://arxiv.org/abs/2412.18319'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://huggingface.co/HuanjinYao/Mulberry_llava_8b'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 <!--<a href='https://huggingface.co/collections/HuanjinYao/denseconnector-66500e173fc8c9f05dc98dea'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
 [![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/700000183)
 <a href='https://huggingface.co/spaces/HuanjinYao/DenseConnector-v1.5-8B'><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>-->
@@ -32,11 +33,43 @@
 </div>
 
 
-## 📰 News
+## News
+- [x] **`Jan 08, 2025.`** We release the **CoMCTS code** for searching step-by-step reasoning and reflection data, along with the [**Mulberry-LLaVA-8B**](https://huggingface.co/HuanjinYao/Mulberry_llava_8b) model and its **reasoning inference code**.
 - [x] **`Dec 24, 2024.`** We release our paper in [arxiv](https://arxiv.org/abs/2412.18319).
 
+## Reasoning Inference
+We provide the inference code for running Mulberry models, which can output detailed step-by-step reasoning.
 
-## 📊 Main Results
+```bash
+python infer.py \
+--model 'Mulberry_llava_8b' \
+--model_path 'HuanjinYao/Mulberry_llava_8b' \
+--question 'Question: <Your_Question>' \
+--img_path '<Your_Img_Path>' 
+```
+
+
+<details>
+<summary>You can also run the following command if you only require the final answer.</summary>
+
+```bash
+python infer.py \
+--model 'Mulberry_llava_8b' \
+--model_path 'HuanjinYao/Mulberry_llava_8b' \
+--question 'Question: <Your_Question>' \
+--img_path '<Your_Img_Path>' \
+--only_output_final_answer
+```
+
+</details>
+
+## 🌲 Data Constrution with CoMCTS
+We release **CoMCTS Code** for generating reasoning and reflection data, which leverage collective knowledge from multiple models to collaboratively conjecture, search and identify effective reasoning paths toward correct answers via four iterative operations including Expansion, Simulation and Error Positioning, Backpropagation, and Selection.
+
+Please refer [here](https://github.com/HJYao00/Mulberry/tree/main/comcts) for more details.
+
+
+## Main Results
 
 We conduct extensive experiments with four powerful baseline models, including [LLaVA-Next-8b](https://huggingface.co/llava-hf/llama3-llava-next-8b-hf), [LLaMA-3.2-Vision-11B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct), [Qwen2-VL-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct). The **Main Results** comparing the Mulberry models with other state-of-the-art models across several popular benchmarks are shown in the figure below.
 
@@ -44,13 +77,13 @@ We conduct extensive experiments with four powerful baseline models, including [
 <img width="650" alt="image" src="figure/main_results.png">
 </div>
 
-## 👀 Quantitative Results
+## Quantitative Results
 Mulberry creates rich, explicit and well-defined reasoning steps with comprehensive understanding, ultimately arriving at the correct answer.
 <div align=center>
 <img width="700" alt="image" src="figure/qualitative_results_reasoning.png">
 </div>
 
-## 🖇️ Citation
+## Citation
 If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
 ```bibtex
 @article{yao2024mulberry,
@@ -61,6 +94,11 @@ If you find this repository is useful, please star🌟 this repo and cite🖇️
 }
 ```
 
+
+## Acknowledgment
+Our work is primarily based on the following codebases. We are sincerely grateful for their work.
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): We use llama-factory to fine-tune Mulberry Models.
+- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): We use VLMEvalKit for evaluation.
 
 ## Limitations
 Mulberry is a preliminary exploration work in o1-like MLLM, leveraging Collective Monte Carlo Tree Search to enable effective and efficient reasoning-path searching and learning. 
@@ -76,10 +114,4 @@ Error localization:
 During our experiments, we observed that models struggle to detect their own errors. To address this, CoMCTS employs multiple models to cross-check each other's errors.
 However, our findings also revealed that smaller models often fail to generate effective detection responses, while larger models occasionally exhibit inaccurate error localization.
 Thus, inaccurate localization may impact the efficiency of the search and we recommend using larger models for error localization or exploring better prompts to enable smaller models to localize errors more accurately.
-
-<!--
-## 👍 Acknowledgment
-Our work is primarily based on the following codebases. We are sincerely grateful for their work.
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): We use llama-factory to fine-tune Mulberry Models.
-- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): We use VLMEvalKit for evaluation.-->
 
