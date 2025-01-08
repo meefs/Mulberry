@@ -57,7 +57,7 @@ def llava_infer(model_path, question, img_path, only_output_final_answer=False):
     model = model.eval().cuda()
 
     kwargs = dict(
-        do_sample=False, temperature=0, max_new_tokens=512, top_p=None, num_beams=1
+        do_sample=False, temperature=0, max_new_tokens=1024, top_p=None, num_beams=1
     )
 
     images = [Image.open(img_path).convert("RGB")]
