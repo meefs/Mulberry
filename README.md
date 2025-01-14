@@ -68,6 +68,18 @@ We release **CoMCTS Code** for generating reasoning and reflection data, which l
 
 Please refer [here](https://github.com/HJYao00/Mulberry/tree/main/comcts) for more details.
 
+## Evaluation
+We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) to evaluate the Mulberry models on different benchmarks. We provide the evaluation instructions and key code here.
+
+First, you need to install VLMEvalKit according to the [official instructions](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
+
+Next, replace the `llava.py` file in `VLMEvalKit-main/vlmeval/vlm/llava/` with the `llava.py` file we provide [here]().
+
+Finally, you can use the following command to perform the evaluation.
+```bash
+python run.py --data MathVista_MINI --model llava_next_llama3 --verbose
+```
+
 
 ## Main Results
 
@@ -76,6 +88,8 @@ We conduct extensive experiments with four powerful baseline models, including [
 <div align=center>
 <img width="650" alt="image" src="figure/main_results.png">
 </div>
+
+
 
 ## Quantitative Results
 Mulberry creates rich, explicit and well-defined reasoning steps with comprehensive understanding, ultimately arriving at the correct answer.
