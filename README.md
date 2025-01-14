@@ -34,7 +34,7 @@
 
 
 ## News
-- [x] **`Jan 14, 2025.`** We release the [instructions](https://github.com/HJYao00/Mulberry?tab=readme-ov-file#evaluation) and [code](https://github.com/HJYao00/Mulberry/tree/main/evaluation) for evaluating the Mulberry model on different benchmarks through the VLMEvalKit tool.
+- [x] **`Jan 14, 2025.`** We release the [instructions](https://github.com/HJYao00/Mulberry?tab=readme-ov-file#evaluation) and [code](https://github.com/HJYao00/Mulberry/tree/main/evaluation) for evaluating Mulberry-LLaVA-8B on different benchmarks through the VLMEvalKit tool.
 - [x] **`Jan 08, 2025.`** We release the **CoMCTS code** for searching step-by-step reasoning and reflection data, along with the [**Mulberry-LLaVA-8B**](https://huggingface.co/HuanjinYao/Mulberry_llava_8b) model and its **reasoning inference code**.
 - [x] **`Dec 24, 2024.`** We release our paper in [arxiv](https://arxiv.org/abs/2412.18319).
 
