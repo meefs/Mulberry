@@ -2,6 +2,9 @@
 
 <h1> Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search </h1>
 
+<h5 align="center"> If you find this project useful, please give us a star🌟.
+
+
 <h5 align="center"> 
 
 <a href='https://arxiv.org/abs/2412.18319'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
