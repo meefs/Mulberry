@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1> Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search </h1>
+<h1> <img src="figure/mulberry.png" style="vertical-align: -10px;" :height="50px" width="50px"> Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search </h1>
 
 <h5 align="center"> If you find this project useful, please give us a star🌟.
 
@@ -71,6 +71,18 @@ python infer.py \
 We release **CoMCTS Code** for generating reasoning and reflection data, which leverage collective knowledge from multiple models to collaboratively conjecture, search and identify effective reasoning paths toward correct answers via four iterative operations including Expansion, Simulation and Error Positioning, Backpropagation, and Selection.
 
 Please refer [here](https://github.com/HJYao00/Mulberry/tree/main/comcts) for more details.
+
+<!--## Training
+We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine-tune the Mulberry models. We provide the training instructions and configs here.
+
+First, install LLaMA-Factory according to the [official_instruction](https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#installation).
+
+Then, 
+
+Finally, you can use the following command to train the models.
+```bash
+python run.py --data MathVista_MINI --model llava_next_llama3 --verbose
+```-->
 
 ## Evaluation
 We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) to evaluate the Mulberry models on different benchmarks. We provide the evaluation instructions and key code here.
