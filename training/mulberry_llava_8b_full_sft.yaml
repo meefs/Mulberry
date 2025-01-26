@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
 
 ### dataset
-dataset: mllm_reasoning
+dataset: mulberry
 template: llava_next
 cutoff_len: 8192
 overwrite_cache: true
