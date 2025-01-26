@@ -72,24 +72,40 @@ We release **CoMCTS Code** for generating reasoning and reflection data, which l
 
 Please refer [here](https://github.com/HJYao00/Mulberry/tree/main/comcts) for more details.
 
-<!--## Training
+## Training
 We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine-tune the Mulberry models. We provide the training instructions and configs here.
 
 First, install LLaMA-Factory according to the [official_instruction](https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#installation).
 
-Then, 
+Then, refer [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) and update the following customized dataset into dataset_info.json.
+```bash
+"mulberry": {
+    "file_name": "./mulberry_sft.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+```
 
 Finally, you can use the following command to train the models.
 ```bash
-python run.py --data MathVista_MINI --model llava_next_llama3 --verbose
-```-->
+llamafactory-cli train examples/train_full/mulberry_llava_8b_full_sft.yaml
+```
 
 ## Evaluation
 We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) to evaluate the Mulberry models on different benchmarks. We provide the evaluation instructions and key code here.
 
 First, you need to install VLMEvalKit according to the [official instructions](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
 
-Next, replace the `llava.py` file in `VLMEvalKit-main/vlmeval/vlm/llava/` with the `llava.py` file we provide [here]().
+Next, replace the `llava.py` file in `VLMEvalKit-main/vlmeval/vlm/llava/` with the `llava.py` file we provide [here](https://github.com/HJYao00/Mulberry/tree/main/evaluation).
 
 Finally, you can use the following command to perform the evaluation.
 ```bash
