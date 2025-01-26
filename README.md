@@ -133,8 +133,8 @@ Mulberry creates rich, explicit and well-defined reasoning steps with comprehens
 If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
 ```bibtex
 @article{yao2024mulberry,
-  title={Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search},
-  author={Yao, Huanjin and Huang, Jiaxing and Wu, Wenhao and Zhang, Jingyi and Wang, Yibo and Liu, Shunyu and Wang, Yingjie and Song, Yuxin and Feng, Haocheng and Shen, Li and Tao, Dacheng},
+  title={Mulberry: Empowering mllm with o1-like reasoning and reflection via collective monte carlo tree search},
+  author={Yao, Huanjin and Huang, Jiaxing and Wu, Wenhao and Zhang, Jingyi and Wang, Yibo and Liu, Shunyu and Wang, Yingjie and Song, Yuxin and Feng, Haocheng and Shen, Li and others},
   journal={arXiv preprint arXiv:2412.18319},
   year={2024}
 }
