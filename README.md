@@ -77,7 +77,7 @@ We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine-tune th
 
 First, install LLaMA-Factory according to the [official_instruction](https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#installation).
 
-Then, refer [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) and update the following customized dataset into dataset_info.json.
+Then, refer [here](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) and update the following customized dataset into `dataset_info.json` in LLaMA-Factory.
 ```bash
 "mulberry": {
     "file_name": "./mulberry_sft.json",
