@@ -8,7 +8,7 @@ finetuning_type: full
 deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
-dataset: mllm_reasoning
+dataset: mulberry
 template: qwen2_vl
 cutoff_len: 32768
 overwrite_cache: true
