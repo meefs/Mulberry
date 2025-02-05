@@ -500,11 +500,11 @@ class LLaVA_Next(BaseModel):
         output = self.model.generate(**inputs, **self.kwargs)
         answer = self.processor.decode(output[0], skip_special_token=True)
         answer = self.output_process(answer)
-        if len(answer.split('### The final answer is:')) == 2:
+        if len(answer.split('### The final answer is:')) == 2 and self.dataset != 'MMVet':
             answer = answer.split('### The final answer is:')[-1].strip()
 
-        if self.dataset == 'HallusionBench':
-            answer = self._process_yorn_prompt(answer)
+            if self.dataset == 'HallusionBench':
+                answer = self._process_yorn_prompt(answer)
         return answer
 
 
