@@ -148,8 +148,6 @@ class Qwen2VLPromptMixin:
         else:
             msgs = [dict(type='image', value=tgt_path)]
         msgs.append(dict(type='text', value=question))
-        if 'Question:' not in question:
-            question = 'Question: ' + question
 
         assert msgs[-1]['type'] == 'text'
         return msgs
@@ -165,8 +163,6 @@ class Qwen2VLPromptMixin:
         else:
             msgs = [dict(type='image', value=tgt_path)]
 
-        if 'Question:' not in question:
-            question = 'Question: ' + question
         msgs.append(dict(type='text', value=question))
         assert msgs[-1]['type'] == 'text'
         return msgs
