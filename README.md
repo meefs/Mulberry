@@ -38,7 +38,8 @@
 
 
 ## News
-- [x] **`Feb 5, 2025.`** We release [Mulberry_llama_11b](https://huggingface.co/HuanjinYao/Mulberry_llama_11b) model and [Mulberry_qwen2vl_7b](https://huggingface.co/HuanjinYao/Mulberry_qwen2vl_7b) and their **reasoning inference code**.
+- [x] **`Feb 5, 2025.`** We release the [evaluation code](https://github.com/HJYao00/Mulberry/tree/main/evaluation) for [Mulberry_llama_11b](https://huggingface.co/HuanjinYao/Mulberry_llama_11b) and [Mulberry_qwen2vl_7b](https://huggingface.co/HuanjinYao/Mulberry_qwen2vl_7b).
+- [x] **`Feb 4, 2025.`** We release [Mulberry_llama_11b](https://huggingface.co/HuanjinYao/Mulberry_llama_11b) model and [Mulberry_qwen2vl_7b](https://huggingface.co/HuanjinYao/Mulberry_qwen2vl_7b) and their **reasoning inference code**.
 - [x] **`Jan 26, 2025.`** We release [Mulberry-260K](https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT) step-by-step reasoning SFT data and [training code](https://github.com/HJYao00/Mulberry?tab=readme-ov-file#training).
 - [x] **`Jan 14, 2025.`** We release the [instructions](https://github.com/HJYao00/Mulberry?tab=readme-ov-file#evaluation) and [code](https://github.com/HJYao00/Mulberry/tree/main/evaluation) for evaluating Mulberry-LLaVA-8B on different benchmarks through the VLMEvalKit tool.
 - [x] **`Jan 08, 2025.`** We release the **CoMCTS code** for searching step-by-step reasoning and reflection data, along with the [Mulberry-LLaVA-8B](https://huggingface.co/HuanjinYao/Mulberry_llava_8b) model and its **reasoning inference code**.
