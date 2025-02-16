@@ -107,7 +107,7 @@ llamafactory-cli train examples/train_full/mulberry_llava_8b_full_sft.yaml
 ## Evaluation
 We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) to evaluate the Mulberry models on different benchmarks. We provide the evaluation instructions and key code here.
 
-First, you need to install VLMEvalKit according to the [official instructions](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md).
+First, you need to install VLMEvalKit according to the [official instructions](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md) and replace [image_vqa.py](https://github.com/open-compass/VLMEvalKit/blob/main/vlmeval/dataset/image_vqa.py#L44) with ours in [here](https://github.com/HJYao00/Mulberry/blob/main/evaluation/image_vqa.py).
 
 Next, replace the `llava.py` file in `VLMEvalKit-main/vlmeval/vlm/llava/` with the `llava.py` file we provide [here](https://github.com/HJYao00/Mulberry/tree/main/evaluation).
 
