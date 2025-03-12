@@ -76,6 +76,15 @@ We release **CoMCTS Code** for generating reasoning and reflection data, which l
 
 Please refer [here](https://github.com/HJYao00/Mulberry/tree/main/comcts) for more details.
 
+After searching, you can use the [code](https://github.com/HJYao00/Mulberry/blob/main/comcts/code/data_construction.py) we provide to construct reasoning and reflection data. `reflection_data_percentage` is used to control the proportion of reflection data.
+```bash
+python data_construction.py \
+--models gpt-4o qwen2_vl_7b qwen2_vl_72b llama_vision_11b \
+--output_path <Your_output_path>/mulberry_data.json \
+--data_path <CoMCTS_search_data_path> \
+--reflection_data_percentage 0.1 \
+```
+
 ## Training
 We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) to fine-tune the Mulberry models. We provide the training instructions and configs here.
 
