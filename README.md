@@ -36,6 +36,12 @@
 </h5>
 </div>
 
+<details open><summary>📣 I also have other Reasoning MLLM projects that may interest you ✨. </summary><p>
+
+> [**Awesome-Reasoning-MLLM**](https://github.com/HJYao00/Awesome-Reasoning-MLLM)<br>
+> A curated collection of the most influential papers, code, dataset, benchmarks, and resources about **Reasoning** in Multi-Modal Large Language Models (MLLMs) <br>
+</p></details>
+
 
 ## News
 - [x] **`Feb 5, 2025.`** We release the [evaluation code](https://github.com/HJYao00/Mulberry/tree/main/evaluation) for [Mulberry_llama_11b](https://huggingface.co/HuanjinYao/Mulberry_llama_11b) and [Mulberry_qwen2vl_7b](https://huggingface.co/HuanjinYao/Mulberry_qwen2vl_7b).
