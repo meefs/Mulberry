@@ -36,7 +36,7 @@
 </h5>
 </div>
 
-<details open><summary>📣 I also have other Reasoning MLLM projects that may interest you ✨. </summary><p>
+<details open><summary>📣 We also have other Reasoning MLLM projects that may interest you ✨. </summary><p>
 
 > [**Awesome-Reasoning-MLLM**](https://github.com/HJYao00/Awesome-Reasoning-MLLM)<br>
 > A curated collection of the most influential papers, code, dataset, benchmarks, and resources about **Reasoning** in Multi-Modal Large Language Models (MLLMs) <br>
