@@ -32,7 +32,7 @@ Format your response with the following sections, separated by ###:
 
 
 
-LOCATE_ERROR_PROMPT = ''''### Question:
+LOCATE_ERROR_PROMPT = """### Question:
 {question}
 
 ### Ground truth answer:
@@ -45,7 +45,7 @@ Given the question and reasoning steps listed above, along with the correspondin
 
 Requirements:
 1. Output the decision ("correct", "neutral", "incorrect") for each step following the format of "Final Decision:\nImage Description: [your decision]; Rationales: [your decision]; Let's think step by step: [your decision]; Step 1: [your decision]; Step 2: [your decision]; ...";
-2. Do not provide any explanation.'''
+2. Do not provide any explanation."""
 
 
 
